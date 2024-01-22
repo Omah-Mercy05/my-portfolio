@@ -1,0 +1,156 @@
+
+form{
+
+    margin-top: 30%;
+    text-align: center;
+    line-height: 80px;
+    color:rgb(132, 3, 218);;
+    font-size: 60px;
+    
+}
+
+
+
+input{
+
+border: 1px solid rgb(222, 164, 245); ;
+    width: 300px;
+    border-radius: 20px;
+    background-color:white;
+    height: 30px;
+    box-shadow: 20px blue;
+}
+
+
+
+#header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #041e42;
+    box-shadow: 0 5px 15px rgba(2, 0, 0, 0.3);
+    z-index: 999;
+    position:fixed;
+    width: 100%;
+    height: 100px;
+     margin: 0;
+     margin-top: -405px;
+    width: 100%;
+  }
+  body{
+    margin: 0;
+  }
+  
+  .head-logo{
+    border-radius: 50px;
+    height: 95px;
+  width: 100px;
+  
+    
+  }
+  
+  
+  
+  #h1a{
+    margin-top: 170px;
+  }
+  #navbar li a {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+  #navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    /* margin: 0; */
+  }
+  #navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    align-content: center;
+  
+  }
+  #navbar li a{
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 600;
+    color:white;
+    transition: 0.3s ease;
+    text-align: center;
+     margin-left: 60px; 
+    
+  
+  }
+  #navbar li a:hover,
+  #navbar li a:active{
+    color: #088178;
+  }
+  #navbar li a.active::after,
+  #navbar li a:hover::after{
+    content: none;
+    width: 30px;
+    height: 2px;
+    background:#088178 ;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+  }
+  
+  
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #041e42 ;
+  }
+  footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  footer .logo {
+    margin-bottom: 50px;
+  }
+  footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+  }
+  footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+  }  footer .follow{
+    margin-top: 20px;
+    padding-right: 4px;
+    cursor: pointer;
+    
+      
+  }
+  footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+  }
+  footer .install img {
+    margin: 10px 0 15px 0;
+    
+  }
+  footer .follow i:hover,
+  footer a:hover{
+    color:#088178;
+  }
+  footer .copyright {
+    width:100%; 
+    text-align: center;
+  } 
+  

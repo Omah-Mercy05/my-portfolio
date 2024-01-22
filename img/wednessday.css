@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+ol{
+    font-size: 30px;
+}
+ul{
+    font-size:20px;
+    list-style-type:circle;
+}
+
+
+h3{
+    text-align: center;
+}
+#p2,#p3{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: tomato;
+}
+
+#p4{
+    font-weight: 700;
+}
+
+form{
+    font-size: 30px;
+    color:#000000;
+border:2px dashed black;
+width:400px;
+padding:20px;
+}
+table { 
+
+    border:  border 2px solid;
+    border-collapse: collapse;
+    color:gray;
+    margin-left: 400px; 
+    text-align: center;
+    background-color: cadetblue;
+}
+
+
+th{
+    font-size:50px;
+    border: 4px solid;
+    font-size:150%;
+    color:white;
+    border-color: rgba(7, 7, 6, 0.3);
+}
+td{
+border-color: white;
+line-height: 60px;
+color:white;
+border: 2px solid;
+border-color:rgba(10, 10, 10, 0.3);
+font-size:120%;
+
+}
+.container{
+    display:flex ;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+img{
+margin:10px;
+transition:all 1s;
+}
+
+img:hover{
+transform: scale(1.1);
+}
+
+video{
+    margin-left: 400px;
+    margin-top: 60px;
+}
+
+P{
+    font-size: 20PX;
+}
+
+#p5{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}

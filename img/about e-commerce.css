@@ -1,0 +1,170 @@
+
+
+ 
+header{
+    /* background-color: rgb(14, 143, 148); */
+    /* background-color: rgb(182, 178, 178); */
+    
+    background-color: rgb(4, 4, 105);
+    height: 100;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+padding:0 0px;
+position: fixed;
+width: 100%;
+margin-top: 0;
+} 
+
+.logo img{
+    height:70px;
+    width:70px;
+    margin-left: 0;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+
+}
+nav li{
+    margin-right:60px;
+
+/* font-size: 50px; */
+
+}
+#ulalone{
+display: flex;
+list-style: none;
+}
+
+#nav2 a{
+    text-decoration: none;
+
+}
+/* 
+header{
+    background-color: rgb(158, 199, 158); 
+    height: 110px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%; 
+    padding:0px;
+    
+ } */
+
+
+ body{
+    padding-top: 1px;
+    margin: 0%;
+ }
+
+
+
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.6em;
+
+}
+
+
+
+
+h1{animation: spin 10s linear infinite;
+    background-color: rgba(15, 68, 214, 0.4);
+    width: 205px;
+    text-align: center;
+    margin-top: 150px;}
+
+    @keyframes spin{
+        0%{transform:rotate(0deg);}
+        100%{transform: rotate(360deg);}
+    
+    }
+
+
+#div1{
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+}
+
+#p1{
+    color: black;
+    font-size: 20px;
+}
+
+#p2{
+    
+    
+    text-align: justify;
+    font-size: 30px;
+background-color: rgba(152, 153, 155, 0.4);
+font-style: italic;
+border-radius: 13px 13px 13px 13px;
+    box-shadow: 0px 4px 6px black;
+width: 1000px;
+height: 500px;
+margin-left: 150px;
+}
+
+
+body{
+    background-color:white;
+    margin-left: 0%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+
+img{
+    margin-left: 520px;
+    margin-top: 30px;
+}
+
+
+footer{
+    /* background-color: rgba(42, 128, 105,20%); */
+    
+    background-color: rgba(8, 23, 235, 0.2);
+    margin-top: 5%;
+    height: 70px;
+    text-align: center;
+    color:white;
+}
+
+
+#p22{
+    text-align: center;
+}
+#p1{
+    font-size: 25px;
+}
+
+video{
+    height: 400px;
+    width: 300px;
+
+}
+
+p{
+    color: black;
+}
+
+
+footer{
+    width: 100%;
+}
+/* 
+body{
+    background-image: url(soft-drinks.jpg);
+    background-size: contain ;
+}  */
+
+@media screen {
+    
+}

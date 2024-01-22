@@ -1,0 +1,307 @@
+
+/* header{ */
+    /* background-color: rgb(14, 143, 148); */
+    
+    /* background-color: rgba(8, 23, 235, 0.2); */
+    /* background-color: rgb(4, 4, 105);
+    height: 100px;
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+padding:0 0px;
+position: fixed;
+width: 100%;
+margin-top: -200px
+} */
+
+
+.logo img{
+    height:80px;
+    width:70px;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav li{
+    margin-right:60px;
+/* font-size: 50px; */
+
+}
+#ulalone{
+display: flex;
+list-style: none;
+/* font-size: 15px; */
+/* justify-content: right; */
+}
+
+#nav2 a{
+    text-decoration: none;
+
+}
+
+
+
+
+
+nav a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+
+
+
+
+
+
+#header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #041e42;
+    box-shadow: 0 5px 15px rgba(2, 0, 0, 0.3);
+    z-index: 999;
+    position:fixed;
+    width: 100%;
+    height: 100px;
+     margin: 0;
+     margin-top: -200px;
+    width: 100%; 
+  }
+  body{
+    margin: 0;
+  }
+
+  .head-logo{
+    border-radius: 50px;
+    height: 95px;
+width: 100px;
+
+    
+  }
+
+
+
+  #h1a{
+    margin-top: 170px;
+  }
+  #navbar li a {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+  #navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    /* margin: 0; */
+  }
+  #navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    align-content: center;
+  
+  }
+  #navbar li a{
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 600;
+    color:white;
+    transition: 0.3s ease;
+    text-align: center;
+     margin-left: 60px; 
+    
+  
+  }
+  #navbar li a:hover,
+  #navbar li a:active{
+    color: #088178;
+  }
+  #navbar li a.active::after,
+  #navbar li a:hover::after{
+    content: none;
+    width: 30px;
+    height: 2px;
+    background:#088178 ;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+  }
+  
+ 
+  
+
+
+
+
+.image-container{
+    display:flex ;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+}
+
+.card{
+    margin: 20px;
+    border: 4px solid #f2f2f2;
+    height: 450px;
+    border-radius: 13px 13px 13px 13px;
+    /* box-shadow: 0px 4px 6px black; */
+    padding-bottom: 30px;
+    padding-right: 15px;
+    background: #f2f2f2;
+    /* transition: all 1s ; */
+}
+
+/* .card:hover{
+    transform: scale(1.1);
+} */
+h3,p,.press{
+    text-align: center;
+    
+}
+.press a{
+    align-items: center;
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+body{
+
+    background-color: #92bdbe;
+    margin: 0;
+}
+
+img{
+    width: 200px;
+    height: 200;
+    margin: 20px;
+/*border: px solid  #f2f2f2;*/
+    border-radius: 5px 5px 5px 5px;
+padding: 25px;
+}
+
+
+
+.buy{
+    margin: 0 20px;
+    text-align: center;
+}
+
+
+
+h1{
+    margin:100px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 100px; 
+text-align: center;
+margin-top: 200px;
+
+}
+
+footer{
+    background-color: rgba(8, 23, 235, 0.2);
+    margin-top: 10%;
+    height: 300px;
+    width: 100%;
+    margin-top: 200px;
+    
+}
+
+h2{
+    font-style: italic;
+}
+
+/* 
+#h33{
+    text-align: left;
+    margin-right: 200px;
+}
+
+#p44{
+    text-align: right;
+    color: black;
+    margin-right: 250px;
+
+} */
+
+/* 
+p{
+    text-align: center;
+    color: black;
+    margin-right: 250px;
+
+} */
+
+
+
+
+/* 
+ header{
+    background-color: green;
+    height: 100px;
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+padding:0 0px;
+position: fixed;
+width: 100%;
+
+} */
+
+.logo img{
+    height:80px;
+    width:70px;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav li{
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+
+
+
+/*  
+p{
+    color: black;
+line-height: 40px; 
+font-style:italic;
+font-weight:bold;
+font-size:40px;
+font-family: "palatino linotype, times new roman";
+border: 2px solid green;
+height: 300px;
+
+
+}
+img{
+    float:right;
+    
+}
+*/
+
+
+
+.card img{
+    border-radius: 50px;
+     box-shadow: 0px 4px 6px black; 
+    background:linear-gradient(to top, grey 0%, white 100%);
+  
+}
+
+
+
+

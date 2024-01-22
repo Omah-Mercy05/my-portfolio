@@ -1,0 +1,44 @@
+div{
+   /* font-size: 20px;
+   list-style-type:none;
+   display:flex;
+   justify-content: right;
+   padding-inline: 50px;*/
+   text-align: right;
+  
+}
+
+#img1{
+width: 800px;
+height:500px;
+margin-left: 200px;
+align-content: center;
+}
+
+.container{
+    display:flex;
+    justify-content: left;
+    width:50px;
+    height: 150px;
+    margin-left: 140px;
+    padding: 30px ;
+    margin-top: 10px;
+    border: 2px solid black;
+    width: 900px;
+
+}
+
+p{
+    font-size: 30px;
+    color:blue;
+    padding-top: 40px;
+
+}
+#button{
+margin-left: 900px;
+font-size: 30px;
+}
+
+h1{
+    color:black;
+}

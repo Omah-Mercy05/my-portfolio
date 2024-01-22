@@ -1,0 +1,18 @@
+
+body{
+    background-image: url(photo.webp);
+background-size: cover ;
+   }
+   
+h1{
+    font-size: 800%;
+    color:mediumvioletred;
+    text-align:center;
+    cursor:pointer;
+}
+
+li{
+    font-size: 200%;
+    color: navy;
+    list-style:none;
+}
