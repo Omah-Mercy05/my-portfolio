@@ -32,10 +32,14 @@
 </div>
 
 <form>
-    <input type="text" placeholder="name">
-    <input type="email" placeholder="email">
+    <!-- <input type="text" placeholder="name">
+    <input type="email" placeholder="email"> -->
+    <form id="myForm">
+        <input type="text" id="username" placeholder="Username">
     <textarea placeholder="message" style="height: 300px;">message</textarea>
-    <input type="submit" value="send">
+    <!-- <input type="submit" value="send"> -->
+    <button type="button" onclick="validateForm()">Submit</button>
+</form>
 </form>
 </section> 
 
@@ -44,15 +48,30 @@
 <footer>
 
    <div style="display: inline-flex; text-align:flext;">
-    <p style="text-align: right;   padding-right: 10px;">07061374606</p>
-    <a href="http://127.0.0.1:5501/new.html" style="text-align: right; color: white;  padding-right: 10px;">facebook</a>
-    <a href="http://127.0.0.1:5501/new.html" style="text-align: right; color: white;   padding-right: 10px;">facebook</a>
-    <a href="http://127.0.0.1:5501/new.html" style="text-align: right; color: white;   padding-right: 10px;">facebook</a>
+    <p style="text-align: right;   padding-right: 10px;">contact</p>
+    <a href="#" style="text-align: right; color: white;  padding-right: 10px;">facebook</a>
+    <!-- <a href="http://127.0.0.1:5501/new.html" style="text-align: right; color: white;   padding-right: 10px;">facebook</a>
+    <a href="http://127.0.0.1:5501/new.html" style="text-align: right; color: white;   padding-right: 10px;">facebook</a> -->
 </div>
 
 <p style="padding-top: 20px;"> copyright 2022 my portfolio. all rights reserved</p>
 </footer>
 
     
+
+
+  
+  <script>
+    function validateForm() {
+      var username = document.getElementById('username').value;
+      if (username === '') {
+        alert('Username cannot be empty!');
+      } else {
+        alert('Mercy Is Happy To Recieve a Message From You!');
+      }
+    }
+  </script>
+
+
 </body>
 </html>

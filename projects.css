@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    background-color: #333;
+    background-color: #594180;
 color: #fff;
 padding: 20px;
 position: fixed;
@@ -81,14 +81,14 @@ section h2{
 }
 
 .project a{
-    background-color: #333;
-    color:#fff;
+    color:white;
     padding: 5px 10px;
     text-decoration: none;
+    background:#594180 ;
 }
 
 footer{
-    background-color: #333;
+    background-color: #594180;
     color: #fff;
     padding: 10px;
     text-align: center;
